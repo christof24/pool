@@ -1,0 +1,9 @@
+[2014/06/11 08:00:01] ########### Start Steuerungsskript ###########
+[2014/06/11 08:00:05] GPIO Manuell: setze gpio: 17 value: 0
+[2014/06/11 08:00:05] GPIO Manuell: setze gpio: 24 value: 0
+[2014/06/11 08:00:05] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2014/06/11 08:00:05] ########### Ende Steuerungsskript ###########
+[2014/06/11 08:05:01] ########### Start Steuerungsskript ###########
+[2014/06/11 08:10:02] ########### Start Steuerungsskript ###########
+[2014/06/11 08:15:01] ########### Start Steuerungsskript ###########
+[2014/06/11 08:20:02] ########### Start Steuerungsskript ###########

@@ -1,0 +1,680 @@
+<!DOCTYPE html> 
+
+<html lang="de" manifest="cache.manifest">
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	
+    <link rel="apple-touch-icon" sizes="144x144" href="./icons/ios/icon-76@2x.png" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<title>Pool Steuerung</title> 
+	
+	<link rel="stylesheet" href="./jquery/jquery.mobile-1.3.2.css" /> 
+	<link rel="stylesheet" href="./style/style.css" />
+
+	
+
+
+	<script src="./jquery/jquery-1.9.1.min.js"></script>
+	<script src="./jquery/jquery.mobile-1.3.2.js"></script> 
+	<script src="./python/funktionen.js"></script>
+	<!-- andere skripte 
+	<script src="./skripte/time.js"></script>
+	<script src="./skripte/chart.js"></script>
+	<script type="text/javascript" src="//www.google.com/jsapi"></script>
+   
+   -->
+	
+	
+        <style>
+
+        </style>
+</head> 
+
+	
+<body> 
+
+<script type="text/javascript">
+  
+$(document).ready(function () {
+	init();
+	var getRelayStatus = setInterval("getRelayStatus();", 9000);
+
+	
+
+$('#sliderPumpe').change(function(event) {
+	event.stopPropagation();
+
+	var hours1 = Math.floor($("#sliderPumpe-a").val() / 60);
+	var minutes1 = $("#sliderPumpe-a").val() - (hours1 * 60);
+
+	if(hours1.length ==1) hours1 = '0' + hours1;
+	if(minutes1.length == 1 || minutes1 == 0) minutes1 = '0' + minutes1;
+
+	var hours2 = Math.floor($("#sliderPumpe-b").val() / 60);
+	var minutes2 = $("#sliderPumpe-b").val() - (hours2 * 60);
+
+	if(hours2.length ==1) hours2 = '0' + hours2;
+	if(minutes2.length == 1 || minutes2 == 0) minutes2 = '0' + minutes2;
+	
+	var dauer = $("#sliderPumpe-b").val() - $("#sliderPumpe-a").val()
+	var hours3 = Math.floor(dauer / 60);
+	var minutes3 = dauer - (hours3 * 60);
+
+	if(hours3.length ==1) hours3 = '0' + hours3;
+	if(minutes3.length == 1 || minutes3 == 0) minutes3 = '0' + minutes3; 
+
+	$("#laufzeit").val(hours1 + ':' + minutes1 + " - " + hours2 + ':' + minutes2);
+	setLaufzeit();
+  });
+
+$('#sliderTablet').change(function(event) {
+	event.stopPropagation();
+
+	var hours1 = Math.floor($("#sliderTablet-a").val() / 60);
+	var minutes1 = $("#sliderTablet-a").val() - (hours1 * 60);
+
+	if(hours1.length ==1) hours1 = '0' + hours1;
+	if(minutes1.length == 1 || minutes1 == 0) minutes1 = '0' + minutes1;
+
+	var hours2 = Math.floor($("#sliderTablet-b").val() / 60);
+	var minutes2 = $("#sliderTablet-b").val() - (hours2 * 60);
+
+	if(hours2.length ==1) hours2 = '0' + hours2;
+	if(minutes2.length == 1 || minutes2 == 0) minutes2 = '0' + minutes2;
+	
+	var dauer = $("#sliderTablet-b").val() - $("#sliderTablet-a").val()
+	var hours3 = Math.floor(dauer / 60);
+	var minutes3 = dauer - (hours3 * 60);
+
+	if(hours3.length ==1) hours3 = '0' + hours3;
+	if(minutes3.length == 1 || minutes3 == 0) minutes3 = '0' + minutes3; 
+
+	$("#laufzeitTablet").val(hours1 + ':' + minutes1 + " - " + hours2 + ':' + minutes2);
+	//setLaufzeit();
+  });
+    
+  
+$('#sliderPumpe1').change(function(event) {
+	event.stopPropagation();
+
+	var hours1 = Math.floor($("#sliderPumpe-a1").val() / 60);
+	var minutes1 = $("#sliderPumpe-a1").val() - (hours1 * 60);
+
+	if(hours1.length ==1) hours1 = '0' + hours1;
+	if(minutes1.length == 1 || minutes1 == 0) minutes1 = '0' + minutes1;
+
+	var hours2 = Math.floor($("#sliderPumpe-b1").val() / 60);
+	var minutes2 = $("#sliderPumpe-b1").val() - (hours2 * 60);
+
+	if(hours2.length ==1) hours2 = '0' + hours2;
+	if(minutes2.length == 1 || minutes2 == 0) minutes2 = '0' + minutes2;
+	
+	var dauer = $("#sliderPumpe-b1").val() - $("#sliderPumpe-a1").val()
+	var hours3 = Math.floor(dauer / 60);
+	var minutes3 = dauer - (hours3 * 60);
+
+	if(hours3.length ==1) hours3 = '0' + hours3;
+	if(minutes3.length == 1 || minutes3 == 0) minutes3 = '0' + minutes3; 
+
+	$("#laufzeit1").val(hours1 + ':' + minutes1 + " - " + hours2 + ':' + minutes2);
+	setLaufzeit();
+  });
+
+$("#buttonSettings").click( function(){
+
+	var weekday ="";
+	var isfirst = true;
+	if($('input[name="tablet-1"]').prop("checked")){
+		weekday += "1";
+		isfirst = false;
+	}
+	if($('input[name="tablet-2"]').prop("checked")){
+		weekday += (isfirst) ? "2" : ";2"; isfirst = false;
+	}
+	if($('input[name="tablet-3"]').prop("checked")){
+		weekday += (isfirst) ? "3" : ";3"; isfirst = false;
+	}
+	if($('input[name="tablet-4"]').prop("checked")){
+		weekday += (isfirst) ? "4" : ";4"; isfirst = false;
+	}
+	if($('input[name="tablet-5"]').prop("checked")){
+		weekday += (isfirst) ? "5" : ";5"; isfirst = false;
+	}
+	if($('input[name="tablet-6"]').prop("checked")){
+		weekday += (isfirst) ? "6" : ";6"; isfirst = false;
+	}
+	if($('input[name="tablet-7"]').prop("checked")){
+		weekday += (isfirst) ? "7" : ";7"; isfirst = false;
+	}
+	//alert(weekday);
+	$.get("python/setSettings.php?minSolar=" + $("#minSolarTemp").val() + "&maxWasser=" + $("#maxWasserTemp").val() + "&minZeit=" + $("#sliderPumpe-a").val() + "&maxZeit=" + $("#sliderPumpe-b").val() + "&minZeit1=" + $("#sliderPumpe-a1").val() + "&maxZeit1=" + $("#sliderPumpe-b1").val()+ "&minZeitTablet=" + $("#sliderTablet-a").val() + "&maxZeitTablet=" + $("#sliderTablet-b").val() + "&tabletLadezeit=" + weekday, function(data) {
+		if(data == 1){
+			$("#statusSave").html('<span class="noerror">Änderungen wurden erfolgreich gespeichert</span>');
+			setTimeout("$('#statusSave').html('');",5000);
+			$.get("python/steuerung.php", function(data) {});
+      $.get("python/steuerungTablet.php", function(data) {});
+		}else{
+			$("#statusSave").html('<span class="error">Änderungen konnten nicht gespeichert werden</span>');
+			setTimeout("$('#statusSave').html('');",5000);
+		}
+	});
+	
+
+});
+
+$("#buttonReboot").click( function(){
+	$.get("python/reboot.php?aktion=reboot", function(data) {
+		$("#reboot").html(data);
+		setTimeout("$('#reboot').html('');",5000);	
+	});
+
+});
+
+$("#buttonShutdown").click( function(){
+	$.get("python/reboot.php?aktion=shutdown", function(data) {
+		$("#reboot").html(data);	
+		setTimeout("$('#reboot').html('');",5000);	
+	});
+
+});
+
+$( "#sliderPumpe" ).on( "slidecreate", function( event, ui ) {
+	$("#sliderPumpe-a").val($("#hiddenstart").val());
+	$("#sliderPumpe-b").val($("#hiddenstop").val());
+});
+
+$( "#sliderPumpe1" ).on( "slidecreate", function( event, ui ) {
+	$("#sliderPumpe-a1").val($("#hiddenstart1").val());
+	$("#sliderPumpe-b1").val($("#hiddenstop1").val());
+});
+
+$( "#sliderTablet" ).on( "slidecreate", function( event, ui ) {
+	$("#sliderTablet-a").val($("#hiddenstartTablet").val());
+	$("#sliderTablet-b").val($("#hiddenstopTablet").val());
+});
+
+$("#checkFirst").click(function(){
+			
+	//$("input[name='radio-pumpe'][value='1']").attr("checked","true").checkboxradio("refresh");
+	$( "#pumpe_ein" ).prop( "checked", true ).checkboxradio( "refresh" );
+	$( "#pumpe_aus" ).prop( "checked", false ).checkboxradio( "refresh" );
+	$( "#pumpe_auto" ).prop( "checked", false ).checkboxradio( "refresh" );
+				
+});
+			
+$("#checkSecond").click(function(){
+	$( "#pumpe_aus" ).prop( "checked", true ).checkboxradio( "refresh" );
+	$( "#pumpe_ein" ).prop( "checked", false ).checkboxradio( "refresh" );
+	$( "#pumpe_auto" ).prop( "checked", false ).checkboxradio( "refresh" );
+});
+			
+$("#checkLast").click(function(){
+	$( "#pumpe_auto" ).prop( "checked", true ).checkboxradio( "refresh" );
+	$( "#pumpe_aus" ).prop( "checked", false ).checkboxradio( "refresh" );
+	$( "#pumpe_ein" ).prop( "checked", false ).checkboxradio( "refresh" );
+});
+
+$("input:radio[name=radio-pumpe]").change(function() {
+	var value = $(this).val();
+	$.get('python/setGpioStatus.php?pin=Pool&value=' + value, function() {});
+	if(value == 1){
+		$("#statusPumpe").html('<img src="./icons/status-on.png" width="30" height="30">');
+	}
+	if(value == 0){
+		$("#statusPumpe").html('<img src="./icons/status-off.png" width="30" height="30">');
+	}
+	clearInterval(getRelayStatus);
+	//getRelayStatus();
+	getRelayStatus = setInterval("getRelayStatus();", 9000);
+});
+
+$("input:radio[name=radio-solar]").change(function() {
+	var value = $(this).val();
+	$.get('python/setGpioStatus.php?pin=Solar&value=' + value, function() {
+	});
+	if(value == 1){
+		$("#statusSolar").html('<img src="./icons/status-on.png" width="30" height="30">');
+	}
+	if(value == 0){
+		$("#statusSolar").html('<img src="./icons/status-off.png" width="30" height="30">');
+	}   	
+	clearInterval(getRelayStatus);
+	//getRelayStatus();
+	getRelayStatus = setInterval("getRelayStatus();", 9000);
+	
+});
+
+$("#flip-licht").on("slidestop", function( event, ui ) { 
+	var value = $(this).val();
+	$.get('python/setGpioStatus.php?pin=Licht&value=' + value, function() {
+	});
+	if(value == 1){
+		$("#statusLicht").html('<img src="./icons/status-on.png" width="30" height="30">');
+	}
+	if(value == 0){
+		$("#statusLicht").html('<img src="./icons/status-off.png" width="30" height="30">');
+	} 
+	//$( "#popupPumpe" ).popup( "open" );
+});
+
+
+
+
+});
+
+</script>
+
+
+
+<!-- Page Dashboard -->
+<div data-role="page" id="dashboard">
+
+<div data-role="content">
+
+
+	<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="c" >
+    	<li data-role="list-divider">Temperaturen</li>
+		
+		<li>Pool<span style="float:right" id="pool_temp"></span></li>
+    	<li>Solar<span style="float:right" id="pool_solar"></span></li>
+    	<li>Rücklauf<span style="float:right" id="pool_ruecklauf"></span></li>
+    	<li>Raspberry<span style="float:right" id="rasp_temp"></span></li>
+    	
+	</ul>
+
+
+
+	<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="c" >
+    	<li data-role="list-divider">Pumpe</li>
+    	<li>Status
+    	<div style="position: absolute ;right:10px;top:5px" id="statusPumpe">
+    		<img src="./icons/status-off.png" width="30" height="30">
+    	</div>
+    	</li>
+    	<li>Programm 
+    		<div style="position: absolute ;right:10px;top:0">
+    			<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+        			<input name="radio-pumpe" id="pumpe_ein" value="1" type="radio">
+        			<label for="pumpe_ein">Ein</label>
+        			<input name="radio-pumpe" id="pumpe_aus" value="0" type="radio">
+        			<label for="pumpe_aus">Aus</label>
+        			<input name="radio-pumpe" id="pumpe_auto" value="3" type="radio">
+        			<label for="pumpe_auto">Auto</label>
+    			</fieldset>
+			</div>
+    	</li>
+    	<!--
+		<li data-role="list-divider">Laufzeit</li>
+		<li id="pumpe_heute">Heute<span style="float:right"></span></li>
+    	<li id="pumpe_gestern">Woche<span style="float:right"></span></li>
+    	<li id="pumpe_monat">Monat<span style="float:right"></span></li>
+    	-->
+	</ul>
+
+	<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="c" >
+    	<li data-role="list-divider">Solar</li>
+    	<li>Status
+    	<div style="position: absolute ;right:10px;top:5px" id="statusSolar">
+    		<img src="./icons/status-off.png" width="30" height="30">
+    	</div>
+    	</li>
+    	<li>Programm 
+    		<div style="position: absolute ;right:10px;top:0">
+    			<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+        			<input name="radio-solar" id="solar_ein" value="1" type="radio">
+        			<label for="solar_ein">Ein</label>
+        			<input name="radio-solar" id="solar_aus" value="0" type="radio">
+        			<label for="solar_aus">Aus</label>
+        			<input name="radio-solar" id="solar_auto" value="3" type="radio">
+        			<label for="solar_auto">Auto</label>
+    			</fieldset>
+			</div>
+    	</li>
+    	<!--
+		<li data-role="list-divider">Laufzeit</li>
+		<li id="solar_heute">Heute<span style="float:right"></span></li>
+    	<li id="solar_gestern">Woche<span style="float:right"></span></li>
+    	<li id="solar_monat">Monat<span style="float:right"></span></li>
+    	-->
+	</ul>
+	<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="c">
+    	<li data-role="list-divider">Pool Licht</li>
+    	<li>Status
+    	<div style="position: absolute ;right:10px;top:5px" id="statusLicht">
+    		<img src="./icons/status-off.png" width="30" height="30">
+    	</div>
+    	</li>    	
+    	<li>An / Aus
+			<div style="position: absolute ;right:10px;top:0">
+			<select name="flip-licht" id="flip-licht" data-role="slider" data-mini="true">
+				<option value="0" selected="selected">Aus</option>
+				<option value="1">An</option>
+			</select>
+			</div>
+    	</li>
+    	<!--
+    	<li data-role="list-divider">Laufzeit</li>
+		<li id="licht_heute">Heute<span style="float:right"></span></li>
+    	<li id="licht_gestern">Woche<span style="float:right"></span></li>
+    	<li id="licht_monat">Monat<span style="float:right"></span></li>
+    	-->
+	</ul>
+
+
+
+
+
+
+
+
+
+
+<!-- /Dashboard -->
+	
+<!-- /footer -->
+
+<div data-role="footer" data-position="fixed" data-theme="c" data-tap-toggle="false" >
+	<div data-role="navbar" >
+		<ul>
+			<li><a href="#dashboard" onClick="refresh_dashboard();" "data-transition="none" class="ui-btn-active ui-state-persist" id="dashboard1">Dash</a></li>
+			<li><a href="#statistik" onClick="refresh_statistik();" id="stats">Stat</a></li>
+			<li><a href="#log"  data-transition="none"  id="logging">Logs</a></li>
+			<li><a href="#manuelles_schalten" onclick="refresh_gpios_manuell();"  data-transition="none"  id="gpios">Gpio</a></li>
+			<li><a href="#einstellungen" onClick="refresh_settings();" id="settings">Einstellungen</a></li>
+		</ul>
+	</div><!-- /navbar -->
+</div>
+
+</div>
+
+</div>
+<!-- /Page Dashboard -->
+
+
+
+
+
+
+
+<!-- Page statistik -->
+<div data-role="page" id="statistik">
+
+
+
+<!-- content -->
+
+
+<center>
+
+<br>
+
+<div id="tableVerbrauch"></div>
+
+<br>
+<br>
+<br>
+
+</center>
+
+<!-- </div> -->
+
+<!-- /content -->
+
+
+<!-- footer -->
+
+<div data-role="footer"  data-position="fixed" data-theme="c" data-tap-toggle="false" >
+	<div data-role="navbar">
+		<ul>
+			<li><a href="#dashboard" onClick="refresh_dashboard();" "data-transition="none" id="dashboard1">Dash</a></li>
+			<li><a href="#statistik" onClick="refresh_statistik();" class="ui-btn-active ui-state-persist"  id="stats">Stat</a></li>
+			<li><a href="#log"  data-transition="none"  id="logging">Logs</a></li>
+			<li><a href="#manuelles_schalten" onclick="refresh_gpios_manuell();"  data-transition="none"  id="gpios">Gpio</a></li>
+			<li><a href="#einstellungen" onClick="refresh_settings();" id="settings">Einstellungen</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /footer -->	
+
+
+</div>
+<!-- /Page statistik -->
+
+
+
+<!-- Page Logs -->
+<div data-role="page" id="log">
+
+
+<!-- content -->
+
+<div data-role="content">
+	<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="c" >
+    	
+		<li data-role="list-divider">Log</li>
+		<li id="logcontent"></li>
+
+	</ul>
+	
+	<!-- <div id="logcontent"></div> -->
+</div>
+
+<!-- /content -->
+
+
+<!-- footer -->
+
+<div data-role="footer"  data-position="fixed" data-theme="c" data-tap-toggle="false" >
+	<div data-role="navbar">
+		<ul>
+			<li><a href="#dashboard" onClick="refresh_dashboard();" "data-transition="none" id="dashboard1">Dash</a></li>
+			<li><a href="#statistik" onClick="refresh_statistik();"   id="stats">Stat</a></li>
+			<li><a href="#log"  data-transition="none" class="ui-btn-active ui-state-persist"  id="logging">Logs</a></li>
+			<li><a href="#manuelles_schalten" onclick="refresh_gpios_manuell();"  data-transition="none"  id="gpios">Gpio</a></li>
+			<li><a href="#einstellungen" onClick="refresh_settings();" id="settings">Einstellungen</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /footer -->	
+
+
+</div>
+<!-- /Page Logs -->
+
+
+
+
+<!-- Page Manuelles Schalten -->
+<div data-role="page" id="manuelles_schalten">
+
+
+
+<!-- content -->
+
+<div data-role="content">
+	<div id="gpios_schalten"></div>
+	<!-- <div id="logcontent"></div> -->
+</div>
+
+<!-- /content -->
+
+
+<!-- footer -->
+
+<div data-role="footer"  data-position="fixed" data-theme="c" data-tap-toggle="false" >
+	<div data-role="navbar">
+		<ul>
+			<li><a href="#dashboard" onClick="refresh_dashboard();" "data-transition="none" id="dashboard1">Dash</a></li>
+			<li><a href="#statistik" onClick="refresh_statistik();"   id="stats">Stat</a></li>
+			<li><a href="#log"  data-transition="none"  id="logging">Logs</a></li>
+			<li><a href="#manuelles_schalten" onclick="refresh_gpios_manuell();"  class="ui-btn-active ui-state-persist" data-transition="none"  id="gpios">Gpio</a></li>
+			<li><a href="#einstellungen" onClick="refresh_settings();" id="settings">Einstellungen</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /footer -->	
+
+
+</div>
+<!-- /Page Manuelles Schalten -->
+
+
+
+<!-- Page einstellungen -->
+
+<div data-role="page" id="einstellungen">
+
+
+
+<!-- content -->
+
+<div data-role="content">
+
+	 <div class="ui-body ui-body-c ui-corner-all"> 
+		<fieldset>
+			<div data-role="fieldcontain">
+			
+				<li data-role="fieldcontain">
+					<center><div id="statusSave"></div></center>
+					<div data-role="rangeslider" id="sliderPumpe">
+						<label for="sliderPumpe-a">Laufzeit Pumpe:</label>
+						<input name="sliderPumpe-a" id="sliderPumpe-a" min="480" max="1200" value="0" step="15" type="range">
+						<input name="sliderPumpe-b" id="sliderPumpe-b" min="480" max="1200" value="0" step="15" type="range">
+					</div>
+				</li>
+				<li data-role="fieldcontain">
+					<div data-role="rangeslider" id="sliderPumpe1">
+						<label for="sliderPumpe-a1">Laufzeit Pumpe:</label>
+						<input name="sliderPumpe-a1" id="sliderPumpe-a1" min="480" max="1200" value="1200" step="15" type="range">
+						<input name="sliderPumpe-b1" id="sliderPumpe-b1" min="480" max="1200" value="1200" step="15" type="range">
+					</div>
+				</li>
+				
+				<div data-role="fieldcontain" >
+					
+					<label for="laufzeit">Pumpe schalten Uhrzeit:</label>
+						
+						<input name="laufzeit" id="laufzeit" type="text">
+						<input name="laufzeit1" id="laufzeit1" type="text">
+						<input name="laufzeitGesamt" id="laufzeitGesamt" type="text">
+						<input name="hiddenstart" id="hiddenstart" type="hidden">
+						<input name="hiddenstop" id="hiddenstop" type="hidden">
+	    				<input name="hiddenstart1" id="hiddenstart1" type="hidden">
+						<input name="hiddenstop1" id="hiddenstop1" type="hidden">
+			
+				</div>
+			
+				<div data-role="fieldcontain">
+						<label for="minSolarTemp">Min. Temperatur Solarpanel °C:</label>
+						<input data-clear-btn="true" name="minSolarTemp1" id="minSolarTemp" value="12" type="text">	
+				</div>	
+			
+				<div data-role="fieldcontain">
+					<label for="maxWasserTemp">Soll Wassertemperatur °C:</label>
+					<input data-clear-btn="true" name="maxWasserTemp" id="maxWasserTemp" value="12" type="text">
+				</div>
+				
+						<div data-role="fieldcontain">
+ 							<fieldset data-role="controlgroup" data-type="horizontal" data-role="fieldcontain"> 
+								<legend>Tablet Laden:</legend>
+								<input type="checkbox" name="tablet-1" id="tablet-1" class="custom" />
+								<label for="tablet-1">Mo</label>
+								<input type="checkbox" name="tablet-2" id="tablet-2" class="custom" />
+								<label for="tablet-2">Di</label>
+								<input type="checkbox" name="tablet-3" id="tablet-3" class="custom" />
+								<label for="tablet-3">Mi</label>
+								<input type="checkbox" name="tablet-4" id="tablet-4" class="custom" />
+								<label for="tablet-4">Do</label>
+								<input type="checkbox" name="tablet-5" id="tablet-5" class="custom" />
+								<label for="tablet-5">Fr</label>
+								<input type="checkbox" name="tablet-6" id="tablet-6" class="custom" />
+								<label for="tablet-6">Sa</label>
+								<input type="checkbox" name="tablet-7" id="tablet-7" class="custom" />
+								<label for="tablet-7">So</label>
+    						</fieldset>
+						</div>
+					<li data-role="fieldcontain">
+						<div data-role="rangeslider" id="sliderTablet">
+							<label for="sliderTablet-a">Ladezyklen Tablet:</label>
+							<input name="sliderTablet-a" id="sliderTablet-a" min="480" max="1200" value="1200" step="15" type="range">
+							<input name="sliderTablet-b" id="sliderTablet-b" min="480" max="1200" value="1200" step="15" type="range">
+						</div>
+					</li>
+					<div data-role="fieldcontain" >
+					
+					<label for="laufzeit">Tablet schalten:</label>
+						
+						<input name="laufzeit" id="laufzeitTablet" type="text">
+						
+						<input name="hiddenstartTablet" id="hiddenstartTablet" type="hidden">
+						<input name="hiddenstopTablet" id="hiddenstopTablet" type="hidden">
+			
+				</div>
+				
+			</div>						
+			<button name="buttonSettings" id="buttonSettings" data-theme="c">Speichern</button>	
+		</fieldset>
+	 </div> 
+
+	<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="c" >
+    	<li data-role="list-divider">Raspberry</li>
+    	<li>Reboot
+    	<div style="position: absolute ;right:10px;top:1px;width:150px">
+    		<!-- <img src="./icons/status-off.png" width="30" height="30"> -->
+    		<button name="buttonReboot" id="buttonReboot" data-mini="true" data-theme="b">Reboot</button>	
+    	</div>
+    	</li>
+    	<li>Shutdown 
+    	<div style="position: absolute ;right:10px;top:1px;width:150px">
+    		<!-- <img src="./icons/status-off.png" width="30" height="30"> -->
+    		<button name="buttonShutdown" id="buttonShutdown" data-mini="true" data-theme="b">Shutdown</button>	
+    	</div>
+    	</li>
+    	<li>Raspberry Zeit 
+    	<div style="position: absolute ;right:10px;top:10px;">
+    			<div id="raspTime"></div>	
+    	</div>
+    	</li>
+	</ul>
+	<center>
+	<div id="reboot" style="color:red;margin-top:30px;font-size:20px;">
+		
+	</div>
+	</center>
+</div>
+
+<!-- /content -->
+
+
+<!-- footer -->
+
+<div data-role="footer"  data-position="fixed" data-theme="c" data-tap-toggle="false" >
+	<div data-role="navbar">
+		<ul>
+			<li><a href="#dashboard" onClick="refresh_dashboard();" "data-transition="none" id="dashboard1">Dash</a></li>
+			<li><a href="#statistik" onClick="refresh_statistik();"   id="stats">Stat</a></li>
+			<li><a href="#log"  data-transition="none"  id="logging">Logs</a></li>
+			<li><a href="#manuelles_schalten" onclick="refresh_gpios_manuell();"   data-transition="none"  id="gpios">Gpio</a></li>
+			<li><a href="#einstellungen" onClick="refresh_settings();" class="ui-btn-active ui-state-persist" id="settings">Einstellungen</a></li>		
+		</ul>
+	</div>
+</div>
+
+<!-- /footer -->	
+
+
+</div>
+<!-- /Page einstellungen -->
+
+
+
+	
+		
+</body>
+</html>

@@ -1,0 +1,538 @@
+[2013/11/20 09:51:54] Start Steuerungsskript
+[2013/11/20 21:52:19] Start Steuerungsskript
+[2013/11/20 22:01:58] Start Steuerungsskript
+[2013/11/20 22:01:58] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/20 22:01:58] Skript: Keine Änderungen Pumpe Manuell AUS
+[2013/11/20 22:02:56] Start Steuerungsskript
+[2013/11/20 22:02:56] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/20 22:03:17] Start Steuerungsskript
+[2013/11/20 22:03:17] Skript: Keine Änderungen Pumpe Manuell AUS
+[2013/11/20 22:07:15] Start Steuerungsskript
+[2013/11/20 22:07:15] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/20 22:07:20] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 16.81 Min.: 40
+[2013/11/20 22:07:26] Skript: Solar EIN - Solarpanel IST: 17.50 Min.: 80
+[2013/11/20 22:09:48] ########### Start Steuerungsskript ###########
+[2013/11/20 22:09:48] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/20 22:09:54] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 16.81 Min.: 40
+[2013/11/20 22:09:59] Skript: Solar EIN - Solarpanel IST: 17.50 Min.: 80
+[2013/11/20 22:09:59] ########### Ende Steuerungsskript ###########
+[2013/11/20 22:10:36] ########### Start Steuerungsskript ###########
+[2013/11/20 22:10:36] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/20 22:10:41] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 16.81 Min.: 40
+[2013/11/20 22:10:47] Skript: Solar AUS - Solarpanel IST: 17.48 Min.: 12
+[2013/11/20 22:10:47] ########### Ende Steuerungsskript ###########
+[2013/11/20 22:11:59] ########### Start Steuerungsskript ###########
+[2013/11/20 22:11:59] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/20 22:12:06] Skript: Solar AUS - Pool IST: 16.81 Soll.: 
+[2013/11/20 22:12:07] Skript: Solar AUS - Pool Temperatur zu hoch
+[2013/11/20 22:12:07] ########### Ende Steuerungsskript ###########
+[2013/11/20 22:13:11] ########### Start Steuerungsskript ###########
+[2013/11/20 22:13:11] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/20 22:13:16] Skript: Solar AUS - Pool IST: 16.81 Soll.: 12
+[2013/11/20 22:13:16] ########### Ende Steuerungsskript ###########
+[2013/11/20 22:14:13] ########### Start Steuerungsskript ###########
+[2013/11/20 22:14:13] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/20 22:14:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:00:02] ########### Start Steuerungsskript ###########
+[2013/11/21 08:00:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 08:00:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:05:01] ########### Start Steuerungsskript ###########
+[2013/11/21 08:05:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 08:05:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:10:01] ########### Start Steuerungsskript ###########
+[2013/11/21 08:10:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 08:10:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:15:01] ########### Start Steuerungsskript ###########
+[2013/11/21 08:15:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 08:15:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:20:01] ########### Start Steuerungsskript ###########
+[2013/11/21 08:20:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 08:20:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:25:01] ########### Start Steuerungsskript ###########
+[2013/11/21 08:25:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 08:25:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:30:01] ########### Start Steuerungsskript ###########
+[2013/11/21 08:30:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 08:30:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.38 Soll.: 40
+[2013/11/21 08:30:12] Skript: Solar EIN - Solarpanel IST: 19.19 Min.: 80
+[2013/11/21 08:30:12] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:35:01] ########### Start Steuerungsskript ###########
+[2013/11/21 08:35:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 08:35:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.38 Soll.: 40
+[2013/11/21 08:35:14] Skript: Solar EIN - Solarpanel IST: 19.19 Min.: 80
+[2013/11/21 08:35:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:40:01] ########### Start Steuerungsskript ###########
+[2013/11/21 08:40:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 08:40:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.38 Soll.: 40
+[2013/11/21 08:40:14] Skript: Solar EIN - Solarpanel IST: 19.19 Min.: 80
+[2013/11/21 08:40:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:45:02] ########### Start Steuerungsskript ###########
+[2013/11/21 08:45:02] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 08:45:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.40 Soll.: 40
+[2013/11/21 08:45:13] Skript: Solar EIN - Solarpanel IST: 19.21 Min.: 80
+[2013/11/21 08:45:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:50:01] ########### Start Steuerungsskript ###########
+[2013/11/21 08:50:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 08:50:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.40 Soll.: 40
+[2013/11/21 08:50:13] Skript: Solar EIN - Solarpanel IST: 19.25 Min.: 80
+[2013/11/21 08:50:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 08:55:01] ########### Start Steuerungsskript ###########
+[2013/11/21 08:55:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 08:55:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.46 Soll.: 40
+[2013/11/21 08:55:14] Skript: Solar EIN - Solarpanel IST: 19.23 Min.: 80
+[2013/11/21 08:55:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:00:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:00:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:00:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.44 Soll.: 40
+[2013/11/21 09:00:13] Skript: Solar EIN - Solarpanel IST: 19.25 Min.: 80
+[2013/11/21 09:00:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:05:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:05:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:05:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.46 Soll.: 40
+[2013/11/21 09:05:13] Skript: Solar EIN - Solarpanel IST: 19.29 Min.: 80
+[2013/11/21 09:05:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:10:02] ########### Start Steuerungsskript ###########
+[2013/11/21 09:10:02] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:10:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.44 Soll.: 40
+[2013/11/21 09:10:15] Skript: Solar EIN - Solarpanel IST: 19.31 Min.: 80
+[2013/11/21 09:10:15] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:15:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:15:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:15:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.50 Soll.: 40
+[2013/11/21 09:15:13] Skript: Solar EIN - Solarpanel IST: 19.33 Min.: 80
+[2013/11/21 09:15:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:20:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:20:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:20:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.50 Soll.: 40
+[2013/11/21 09:20:15] Skript: Solar EIN - Solarpanel IST: 19.31 Min.: 80
+[2013/11/21 09:20:15] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:25:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:25:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:25:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.50 Soll.: 40
+[2013/11/21 09:25:13] Skript: Solar EIN - Solarpanel IST: 19.33 Min.: 80
+[2013/11/21 09:25:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:30:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:30:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:30:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.50 Soll.: 40
+[2013/11/21 09:30:13] Skript: Solar EIN - Solarpanel IST: 19.31 Min.: 80
+[2013/11/21 09:30:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:35:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:35:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:35:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.52 Soll.: 40
+[2013/11/21 09:35:14] Skript: Solar EIN - Solarpanel IST: 19.33 Min.: 80
+[2013/11/21 09:35:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:40:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:40:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:40:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.52 Soll.: 40
+[2013/11/21 09:40:13] Skript: Solar EIN - Solarpanel IST: 19.35 Min.: 80
+[2013/11/21 09:40:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:45:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:45:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:45:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.54 Soll.: 40
+[2013/11/21 09:45:14] Skript: Solar EIN - Solarpanel IST: 19.38 Min.: 80
+[2013/11/21 09:45:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:50:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:50:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:50:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.56 Soll.: 40
+[2013/11/21 09:50:15] Skript: Solar EIN - Solarpanel IST: 19.38 Min.: 80
+[2013/11/21 09:50:15] ########### Ende Steuerungsskript ###########
+[2013/11/21 09:55:01] ########### Start Steuerungsskript ###########
+[2013/11/21 09:55:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 09:55:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.56 Soll.: 40
+[2013/11/21 09:55:12] Skript: Solar EIN - Solarpanel IST: 19.38 Min.: 80
+[2013/11/21 09:55:12] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:00:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:00:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:00:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.56 Soll.: 40
+[2013/11/21 10:00:16] Skript: Solar EIN - Solarpanel IST: 19.44 Min.: 80
+[2013/11/21 10:00:16] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:05:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:05:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:05:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.10 Soll.: 40
+[2013/11/21 10:05:13] Skript: Solar EIN - Solarpanel IST: 17.69 Min.: 80
+[2013/11/21 10:05:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:10:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:10:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:10:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 16.19 Soll.: 40
+[2013/11/21 10:10:14] Skript: Solar EIN - Solarpanel IST: 15.62 Min.: 80
+[2013/11/21 10:10:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:15:02] ########### Start Steuerungsskript ###########
+[2013/11/21 10:15:02] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:15:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 16.12 Soll.: 40
+[2013/11/21 10:15:14] Skript: Solar EIN - Solarpanel IST: 15.88 Min.: 80
+[2013/11/21 10:15:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:20:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:20:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:20:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 16.06 Soll.: 40
+[2013/11/21 10:20:14] Skript: Solar EIN - Solarpanel IST: 16.60 Min.: 80
+[2013/11/21 10:20:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:25:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:25:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:25:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 15.88 Soll.: 40
+[2013/11/21 10:25:12] Skript: Solar EIN - Solarpanel IST: 16.65 Min.: 80
+[2013/11/21 10:25:12] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:30:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:30:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:30:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 15.06 Soll.: 40
+[2013/11/21 10:30:15] Skript: Solar EIN - Solarpanel IST: 16.44 Min.: 80
+[2013/11/21 10:30:15] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:35:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:35:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:35:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 14.81 Soll.: 40
+[2013/11/21 10:35:14] Skript: Solar EIN - Solarpanel IST: 16.38 Min.: 80
+[2013/11/21 10:35:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:40:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:40:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:40:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 14.60 Soll.: 40
+[2013/11/21 10:40:15] Skript: Solar EIN - Solarpanel IST: 16.27 Min.: 80
+[2013/11/21 10:40:15] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:45:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:45:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:45:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 14.75 Soll.: 40
+[2013/11/21 10:45:14] Skript: Solar EIN - Solarpanel IST: 16.19 Min.: 80
+[2013/11/21 10:45:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:50:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:50:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:50:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 13.94 Soll.: 40
+[2013/11/21 10:50:15] Skript: Solar EIN - Solarpanel IST: 16.19 Min.: 80
+[2013/11/21 10:50:15] ########### Ende Steuerungsskript ###########
+[2013/11/21 10:55:01] ########### Start Steuerungsskript ###########
+[2013/11/21 10:55:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 10:55:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 14.56 Soll.: 40
+[2013/11/21 10:55:14] Skript: Solar EIN - Solarpanel IST: 16.60 Min.: 80
+[2013/11/21 10:55:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:00:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:00:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 11:00:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 15.56 Soll.: 40
+[2013/11/21 11:00:12] Skript: Solar EIN - Solarpanel IST: 17.06 Min.: 80
+[2013/11/21 11:00:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:05:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:05:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 11:05:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 15.75 Soll.: 40
+[2013/11/21 11:05:13] Skript: Solar EIN - Solarpanel IST: 17.19 Min.: 80
+[2013/11/21 11:05:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:10:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:10:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 11:10:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 16.17 Soll.: 40
+[2013/11/21 11:10:14] Skript: Solar EIN - Solarpanel IST: 17.27 Min.: 80
+[2013/11/21 11:10:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:15:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:15:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 11:15:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:20:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:20:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 11:20:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:25:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:25:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 11:25:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:30:02] ########### Start Steuerungsskript ###########
+[2013/11/21 11:30:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 11:30:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:35:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:35:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 11:35:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:40:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:40:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 11:40:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:45:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:45:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 11:45:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:50:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:50:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 11:50:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 11:55:01] ########### Start Steuerungsskript ###########
+[2013/11/21 11:55:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 11:55:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:00:02] ########### Start Steuerungsskript ###########
+[2013/11/21 12:00:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:00:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:05:02] ########### Start Steuerungsskript ###########
+[2013/11/21 12:05:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:05:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:10:01] ########### Start Steuerungsskript ###########
+[2013/11/21 12:10:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:10:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:15:01] ########### Start Steuerungsskript ###########
+[2013/11/21 12:15:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:15:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:20:01] ########### Start Steuerungsskript ###########
+[2013/11/21 12:20:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:20:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:25:01] ########### Start Steuerungsskript ###########
+[2013/11/21 12:25:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:25:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:30:01] ########### Start Steuerungsskript ###########
+[2013/11/21 12:30:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:30:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:35:01] ########### Start Steuerungsskript ###########
+[2013/11/21 12:35:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:35:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:40:01] ########### Start Steuerungsskript ###########
+[2013/11/21 12:40:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:40:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:45:01] ########### Start Steuerungsskript ###########
+[2013/11/21 12:45:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:45:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:50:01] ########### Start Steuerungsskript ###########
+[2013/11/21 12:50:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:50:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 12:55:01] ########### Start Steuerungsskript ###########
+[2013/11/21 12:55:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 12:55:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:00:02] ########### Start Steuerungsskript ###########
+[2013/11/21 13:00:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:00:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:05:02] ########### Start Steuerungsskript ###########
+[2013/11/21 13:05:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:05:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:10:01] ########### Start Steuerungsskript ###########
+[2013/11/21 13:10:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:10:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:15:01] ########### Start Steuerungsskript ###########
+[2013/11/21 13:15:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:15:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:20:01] ########### Start Steuerungsskript ###########
+[2013/11/21 13:20:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:20:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:25:01] ########### Start Steuerungsskript ###########
+[2013/11/21 13:25:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:25:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:30:02] ########### Start Steuerungsskript ###########
+[2013/11/21 13:30:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:30:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:35:01] ########### Start Steuerungsskript ###########
+[2013/11/21 13:35:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:35:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:40:01] ########### Start Steuerungsskript ###########
+[2013/11/21 13:40:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:40:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:45:01] ########### Start Steuerungsskript ###########
+[2013/11/21 13:45:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:45:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:50:01] ########### Start Steuerungsskript ###########
+[2013/11/21 13:50:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:50:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 13:55:01] ########### Start Steuerungsskript ###########
+[2013/11/21 13:55:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 13:55:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:00:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:00:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:00:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:05:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:05:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:05:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:10:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:10:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:10:02] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 14:10:02] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 14:10:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.58 Soll.: 40
+[2013/11/21 14:10:08] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.58 Soll.: 40
+[2013/11/21 14:10:13] Skript: Solar EIN - Solarpanel IST: 18.10 Min.: 80
+[2013/11/21 14:10:13] Skript: Solar EIN - Solarpanel IST: 18.10 Min.: 80
+[2013/11/21 14:10:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:10:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:15:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:15:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:15:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:20:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:20:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:20:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:23:08] ########### Start Steuerungsskript ###########
+[2013/11/21 14:23:08] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:23:08] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:24:29] ########### Start Steuerungsskript ###########
+[2013/11/21 14:24:29] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:24:29] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:25:02] ########### Start Steuerungsskript ###########
+[2013/11/21 14:25:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:25:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:25:13] ########### Start Steuerungsskript ###########
+[2013/11/21 14:25:14] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:25:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:25:26] ########### Start Steuerungsskript ###########
+[2013/11/21 14:25:26] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:25:26] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:25:46] ########### Start Steuerungsskript ###########
+[2013/11/21 14:25:46] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:25:46] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:25:49] ########### Start Steuerungsskript ###########
+[2013/11/21 14:25:49] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:25:49] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:26:28] ########### Start Steuerungsskript ###########
+[2013/11/21 14:26:33] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:26:33] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:27:23] ########### Start Steuerungsskript ###########
+[2013/11/21 14:27:23] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:27:23] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:28:24] ########### Start Steuerungsskript ###########
+[2013/11/21 14:28:24] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:28:24] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:30:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:30:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:30:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:32:19] ########### Start Steuerungsskript ###########
+[2013/11/21 14:32:19] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:32:19] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:32:20] ########### Start Steuerungsskript ###########
+[2013/11/21 14:32:20] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:32:20] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:32:39] ########### Start Steuerungsskript ###########
+[2013/11/21 14:32:39] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:32:39] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:32:52] ########### Start Steuerungsskript ###########
+[2013/11/21 14:32:52] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:32:52] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:34:07] ########### Start Steuerungsskript ###########
+[2013/11/21 14:34:07] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:34:07] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:35:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:35:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:35:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:35:54] ########### Start Steuerungsskript ###########
+[2013/11/21 14:35:54] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:35:54] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:36:36] ########### Start Steuerungsskript ###########
+[2013/11/21 14:36:36] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 14:36:42] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.52 Soll.: 40
+[2013/11/21 14:36:50] Skript: Solar EIN - Solarpanel IST: 18.00 Min.: 80
+[2013/11/21 14:36:50] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:37:16] ########### Start Steuerungsskript ###########
+[2013/11/21 14:37:16] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 14:37:16] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:40:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:40:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 14:40:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.54 Soll.: 40
+[2013/11/21 14:40:13] Skript: Solar EIN - Solarpanel IST: 18.00 Min.: 80
+[2013/11/21 14:40:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:45:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:45:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 14:45:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.50 Soll.: 40
+[2013/11/21 14:45:12] Skript: Solar EIN - Solarpanel IST: 18.00 Min.: 80
+[2013/11/21 14:45:12] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:50:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:50:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 14:50:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.50 Soll.: 40
+[2013/11/21 14:50:12] Skript: Solar EIN - Solarpanel IST: 17.98 Min.: 80
+[2013/11/21 14:50:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 14:55:01] ########### Start Steuerungsskript ###########
+[2013/11/21 14:55:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 14:55:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.50 Soll.: 40
+[2013/11/21 14:55:12] Skript: Solar EIN - Solarpanel IST: 17.94 Min.: 80
+[2013/11/21 14:55:12] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:00:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:00:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 15:00:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:05:02] ########### Start Steuerungsskript ###########
+[2013/11/21 15:05:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 15:05:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:10:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:10:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 15:10:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:15:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:15:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 15:15:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:20:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:20:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 15:20:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:25:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:25:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 15:25:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.44 Soll.: 40
+[2013/11/21 15:25:12] Skript: Solar EIN - Solarpanel IST: 17.94 Min.: 80
+[2013/11/21 15:25:17] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:30:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:30:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 15:30:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.44 Soll.: 40
+[2013/11/21 15:30:12] Skript: Solar EIN - Solarpanel IST: 17.94 Min.: 80
+[2013/11/21 15:30:12] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:35:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:35:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 15:35:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.44 Soll.: 40
+[2013/11/21 15:35:12] Skript: Solar EIN - Solarpanel IST: 17.94 Min.: 80
+[2013/11/21 15:35:12] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:40:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:40:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 15:40:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.44 Soll.: 40
+[2013/11/21 15:40:12] Skript: Solar EIN - Solarpanel IST: 17.94 Min.: 80
+[2013/11/21 15:40:12] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:45:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:45:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 15:45:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.44 Soll.: 40
+[2013/11/21 15:45:12] Skript: Solar EIN - Solarpanel IST: 17.92 Min.: 80
+[2013/11/21 15:45:14] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:50:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:50:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 15:50:06] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.44 Soll.: 40
+[2013/11/21 15:50:13] Skript: Solar EIN - Solarpanel IST: 17.90 Min.: 80
+[2013/11/21 15:50:13] ########### Ende Steuerungsskript ###########
+[2013/11/21 15:55:01] ########### Start Steuerungsskript ###########
+[2013/11/21 15:55:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 15:55:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.44 Soll.: 40
+[2013/11/21 15:55:12] Skript: Solar EIN - Solarpanel IST: 17.90 Min.: 80
+[2013/11/21 15:55:12] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:00:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:00:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:00:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:05:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:05:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:05:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:10:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:10:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:10:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:15:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:15:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:15:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:20:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:20:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:20:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:25:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:25:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:25:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:30:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:30:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:30:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:35:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:35:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:35:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:40:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:40:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:40:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:45:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:45:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:45:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:50:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:50:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:50:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 16:55:01] ########### Start Steuerungsskript ###########
+[2013/11/21 16:55:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 16:55:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 19:29:07] cronjob: */5 9-18 * * * wget -q -O /dev/null localhost/python/steuerung.php
+[2013/11/21 19:38:59] cronjob: */5 9-20 * * * wget -q -O /dev/null localhost/python/steuerung.php
+[2013/11/21 19:50:01] ########### Start Steuerungsskript ###########
+[2013/11/21 19:50:01] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 19:50:07] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.06 Soll.: 40
+[2013/11/21 19:50:12] Skript: Solar EIN - Solarpanel IST: 17.69 Min.: 80
+[2013/11/21 19:50:12] ########### Ende Steuerungsskript ###########
+[2013/11/21 19:52:10] ########### Start Steuerungsskript ###########
+[2013/11/21 19:52:10] Skript: Pumpe EIN - Innerhalb der Zeit
+[2013/11/21 19:52:16] Skript: Solar evtl. EIN muss noch Panel Temperatur prüfen - Pool: IST: 17.08 Soll.: 40
+[2013/11/21 19:52:22] Skript: Solar EIN - Solarpanel IST: 17.71 Min.: 80
+[2013/11/21 19:52:22] ########### Ende Steuerungsskript ###########
+[2013/11/21 19:55:01] ########### Start Steuerungsskript ###########
+[2013/11/21 19:55:01] Skript: Solar AUS - da Pumpe manuell AUS
+[2013/11/21 19:55:01] GPIO: setze gpio: 0 value: 0
+[2013/11/21 19:55:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 19:56:01] GPIO: setze gpio: 1 value: 1
+[2013/11/21 19:56:35] GPIO: setze gpio: 23 value: 0
+[2013/11/21 19:56:39] GPIO: setze gpio: 23 value: 0
+[2013/11/21 20:00:02] ########### Start Steuerungsskript ###########
+[2013/11/21 20:00:02] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 20:00:02] ########### Ende Steuerungsskript ###########
+[2013/11/21 20:05:01] ########### Start Steuerungsskript ###########
+[2013/11/21 20:05:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 20:05:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 20:10:01] ########### Start Steuerungsskript ###########
+[2013/11/21 20:10:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 20:10:01] ########### Ende Steuerungsskript ###########
+[2013/11/21 20:15:01] ########### Start Steuerungsskript ###########
+[2013/11/21 20:15:01] Skript: Pumpe und Solar AUS - Außerhalb der Zeit
+[2013/11/21 20:15:01] ########### Ende Steuerungsskript ###########

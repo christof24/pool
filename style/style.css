@@ -1,0 +1,393 @@
+ 
+html, body{
+	background:		#dfdfdf;
+	margin:			0;
+	padding:		0;
+	color:			black;
+	font-family:	Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+
+
+#sliderPumpe input{
+	display:none;
+}
+#sliderPumpe1 input{
+	display:none;
+}
+
+#sliderTablet input{
+	display:none;
+}
+
+
+#progress, #progress_stats, #progress_log, #progress_settings{
+position:absolute;
+float:right;
+right:110px;
+top:12px;
+height:20px;
+
+
+}
+
+.ui-input-text
+{
+width: 175px !important;
+}
+
+.error{
+	color:			#aa0000;
+}
+
+.noerror{
+	color:			#00aa00;
+}
+
+
+.tempPool, .pumpe{
+	float:left;
+	border:			1px #666 solid;
+	border-radius:	12px;
+	margin:			5px;
+	color:grey;	
+	background:		white;
+	margin-top:		10px;
+	padding:		10px;
+	font-size:20px;
+	background: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); 
+    box-shadow: 			1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 		1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+  	-webkit-box-shadow: 	1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.graph{
+	border:			1px #666 solid;
+	border-radius:	12px;
+	margin:			5px;
+	color:grey;	
+	background:		white;
+	margin-top:		10px;
+	padding:		10px;
+	width:900px;
+	height:500px;
+    box-shadow: 			1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 		1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+  	-webkit-box-shadow: 	1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table_klein{
+
+	border:			1px #666 solid;
+	border-radius:	12px;
+	margin:			10px;
+		color:black;	
+	background:		white;
+	margin-top:		10px;
+	padding:		10px;
+	font-size:20px;
+	background: -moz-linear-gradient(top, rgba(229,229,229,1) 0%, rgba(255,255,255,1) 20%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(20%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 20%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 20%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 20%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 20%); /* W3C */
+    box-shadow: 			1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 		1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+  	-webkit-box-shadow: 	1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.table_klein_links{
+	float:left;
+	border:			1px #666 solid;
+	border-radius:	12px;
+	margin:			10px;
+	color:black;	
+	background:		white;
+	margin-top:		10px;
+	padding:		10px;
+	font-size:20px;
+	background: -moz-linear-gradient(top, rgba(229,229,229,1) 0%, rgba(255,255,255,1) 20%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(20%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 20%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 20%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 20%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 20%); /* W3C */
+	
+    box-shadow: 			1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 		1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+  	-webkit-box-shadow: 	1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+ hr {
+ color:white;	
+}    
+
+.uhr1{
+
+		height:150px;
+		width:30%;
+}
+
+.pumpe{
+	margin-top:		40px;
+	height:150px;
+	width:30%;	
+}
+
+.tempPool{	
+		height:150px;
+		width:13%;	
+}
+
+
+
+
+           /**** Trying to style h1 and paragraph *******/
+				.nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+				.nav-glyphish-example .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: none !important; border-radius: none !important; }
+				#dashboard1 .ui-icon { background:  url(../icons/81-dashboard.png) no-repeat }
+				#weather .ui-icon { background:  url(../icons/25-weather.png) 50% 50% no-repeat;  background-size: 22px 24px; }
+				#settings .ui-icon { background:  url(../icons/20-gear2.png) 50% 50% no-repeat; }
+				#stats .ui-icon { background:  url(../icons/16-line-chart.png) 50% 50% no-repeat }
+				
+				#gpios .ui-icon { background:  url(../icons/106-sliders.png) 50% 50% no-repeat }
+				#logging .ui-icon { background:  url(../icons/179-notepad.png) 50% 50% no-repeat }
+				
+
+
+
+		
+li{
+list-style-type:none;
+}
+
+
+.date{
+float:left;
+margin-bottom:45px;
+}
+
+ .hours, .min, .sec, .point{
+float:left;
+color:black;
+font-size:70px;
+}
+
+
+
+
+
+
+.wetterApplet{
+	text-shadow:0 0 0;
+	float:left;
+	border:			1px #666 solid;
+	border-radius:	12px;
+	margin:			10px;
+	color:#686868;	
+	//color:transparent;	
+	//background:		white;
+		   background: #0099ff;
+   /* Firefox
+   background: -moz-linear-gradient(top, #0099ff, #00ccff);
+   background: -webkit-linear-gradient(top, #0099ff, #00ccff);
+   background: -ms-linear-gradient(top, #0099ff, #00ccff);
+   background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);  
+   background: -o-linear-gradient(top, #0099ff, #00ccff);
+   */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+   /* general syntax */
+   
+   background: linear-gradient(top, #0099ff, #00ccff);
+	margin-top:		10px;
+	padding:		10px;
+	height:200px;
+	width:20%;
+	font-size:20px;
+    box-shadow: 			1px 1px 14px rgba(0, 0, 0, 0.2),
+               				-1px 1px 14px rgba(0, 0, 0, 0.1),
+                			1px -1px 14px rgba(0, 0, 0, 0.1),
+               				-1px -1px 14px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 		1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+  	-webkit-box-shadow: 	1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.wetterAppletHeute{
+text-shadow:0 0 0;
+	
+	border:			1px #666 solid;
+	border-radius:	12px;
+	margin:			10px;
+	//color:black;
+	color:#686868;
+		  // background: #0099ff;
+   /* Firefox
+   background: -moz-linear-gradient(top, #0099ff, #00ccff);
+   background: -webkit-linear-gradient(top, #0099ff, #00ccff);
+   background: -ms-linear-gradient(top, #0099ff, #00ccff);
+   background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);  
+   background: -o-linear-gradient(top, #0099ff, #00ccff);
+   */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+   /* general syntax */
+
+	margin-top:		10px;
+	padding:		10px;
+	width:50%;
+  	margin-left: auto ;
+  	margin-right: auto ;
+	height:200px;
+	
+	font-size:20px;
+    box-shadow: 			1px 1px 14px rgba(0, 0, 0, 0.2),
+               				-1px 1px 14px rgba(0, 0, 0, 0.1),
+                			1px -1px 14px rgba(0, 0, 0, 0.1),
+               				-1px -1px 14px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 		1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+  	-webkit-box-shadow: 	1px 1px 4px rgba(0, 0, 0, 0.1),
+               				-1px 1px 4px rgba(0, 0, 0, 0.1),
+                			1px -1px 4px rgba(0, 0, 0, 0.1),
+               				-1px -1px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+
+.wetterGradHeute{
+ 	font-size:50px;
+ 	margin:10px;
+  	float:left;
+}
+.wetterTag{
+	text-align: center;
+}
+
+.wetterIcon{
+	float:right;
+}
+
+.wetterText{
+	margin:10px;
+}
+.wetterTextHeute{
+	float:right;
+	top:50px;
+	margin:10px;
+}
+.wetterHigh, .wetterLow{
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.wetterHighHeute, .wetterLowHeute{
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+/*
+ 
+    .blades {
+       /*image is 120 x 120 px*/
+       position: relative;
+       top: -3px;
+       left: 43px;
+       /* Firefox */
+       -moz-animation: bladeSpin 1s linear infinite;
+       /* WebKit - Chrome and Safari */
+       -webkit-animation: bladeSpin 1s linear infinite;
+       /* Opera */
+       -o-animation: bladeSpin 1s linear infinite;
+       /* general syntax */
+       animation: bladeSpin 1s linear infinite;
+    }
+    
+    .stand {
+       /*image is 12 x 130 px*/
+       position: relative;
+       top: 40px;
+       //left: 250px;
+    }
+    /* Blades Spinning */
+    
+    /* Firefox */
+    @-moz-keyframes bladeSpin {
+       from { -moz-transform: rotate(0deg); }
+       to { -moz-transform: rotate(360deg); }
+    }
+    /* WebKit - Chrome and Safari */
+    @-webkit-keyframes bladeSpin {
+       from { -webkit-transform: rotate(0deg); }
+       to { -webkit-transform: rotate(360deg); }
+    } 
+    /* Opera */
+    @-o-keyframes bladeSpin {
+       from { -o-transform: rotate(0deg); }
+       to { -o-transform: rotate(360deg); }
+    } 
+    /* general syntax */
+    @keyframes bladeSpin {
+       from { transform: rotate(0deg); }
+       to { transform: rotate(360deg); }
+    }
+    
+    */
