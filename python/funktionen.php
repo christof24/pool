@@ -373,7 +373,7 @@ function getSensorTemp($id){
 
 function logSensortemp($name,$id,$temperatur){
 
-	if($temperatur > 0){
+	if($temperatur != ""){
 		$sql = query("INSERT INTO logtemp VALUES( '', '" . $name . "', '" . $id . "', '" . $temperatur . "', '" . time() . "')");
 	}
 
